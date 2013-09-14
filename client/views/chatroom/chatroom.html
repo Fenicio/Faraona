@@ -1,0 +1,9 @@
+<template name="chatroom">
+	{{#if chatroomIsActive}}
+		{{#if webcamIsActivated}}
+			{{> webcam}}
+		{{#endif}}
+		{{> chat_log}}
+		{{> chat_type}}
+	{{#endif}}
+</template>
