@@ -1,0 +1,13 @@
+.full-width-image-1 {
+	background: #000 url(/dark_geometric.png) center center;
+	text-align: center;
+	padding: 25px 0;
+	max-width: 1920px;
+	float:both;
+	min-height: 100px;
+	margin-bottom: 0px;
+}
+
+.logo-wrapper {
+	display:inline-block;
+}

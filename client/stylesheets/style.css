@@ -1,0 +1,60 @@
+body {
+	background-color: #000;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Muli', sans-serif;
+}
+
+header {
+	text-align: center;
+	background: #000 url(/dark_geometric.png) center center;
+}
+
+.header-text {
+	color: #FFF;
+	font: helvetica;
+}
+
+.posts {
+	background: #000 url(/bigwave.jpg) no-repeat center center;
+	padding-bottom: 50px;
+}
+
+.transparent {
+	background-color: white;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+}
+
+.blog_post {
+	padding-top: 50px;
+}
+
+.post_title {
+	color: #000;
+}
+
+.post_title > h1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 365%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.post_body {
+	color: #000;
+	font-size: 160%;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+footer {
+	display: block;
+	color: #FFF;
+	padding: 20px;
+	background: #000 url(/noisy_net.png) center center;
+}

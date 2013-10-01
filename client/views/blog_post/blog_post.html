@@ -1,0 +1,24 @@
+<template name="last_blog_post">
+	{{> blog_post options}}
+</template>
+
+<template name="blog_post">
+	<div class="blog_post">
+		<div class="container transparent">
+		<div class="post_title">
+			<h1>{{title}}</h1>
+		</div>
+		<div class="post_body">
+			{{body}}
+		</div>
+		<div class="post_comments">
+			On/Off
+			{{> comments}}
+		</div>
+		<div class="post_navigation">
+			Previous
+			Next
+		</div>
+	</div>
+	</div>
+</template>

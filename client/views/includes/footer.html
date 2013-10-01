@@ -1,4 +1,35 @@
 <template name="footer">
 	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<ul>
+						<li>Texto</li>
+						<li>Twitter</li>
+						<li>Facebook</li>
+						<li>Github</li>
+						<li>G+</li>
+					</ul>
+
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						{{loginButtons}}
+						{{#if isAdminUser}}
+							<li><a href="post/new">Write New Post</a></li>
+						{{/if}}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			No copyright, no fun
+		</div>
 	</footer>
 </template>
